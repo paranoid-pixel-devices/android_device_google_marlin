@@ -532,4 +532,67 @@
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <!-- Key codes of gestures. If the gesture is not supported set it to 0. -->
+    <integer name="config_doubleTapKeyCode">1</integer>
+
+    <integer name="config_drawVKeyCode">1</integer>
+
+    <integer name="config_drawInverseVKeyCode">1</integer>
+
+    <integer name="config_drawOKeyCode">1</integer>
+
+    <integer name="config_drawMKeyCode">1</integer>
+
+    <integer name="config_drawWKeyCode">1</integer>
+
+    <integer name="config_drawArrowLeftKeyCode">1</integer>
+
+    <integer name="config_drawArrowRightKeyCode">1</integer>
+
+    <integer name="config_oneFingerSwipeUpKeyCode">1</integer>
+
+    <integer name="config_oneFingerSwipeRightKeyCode">1</integer>
+
+    <integer name="config_oneFingerSwipeDownKeyCode">1</integer>
+
+    <integer name="config_oneFingerSwipeLeftKeyCode">1</integer>
+
+    <integer name="config_twoFingerSwipeKeyCode">1</integer>
+
+    <!-- Default settings for gestures
+            0 - Disabled
+            1 - Wake device
+            2 - Toggle flashlight
+            3 - Toggle airplane mode
+            4 - Play/Pause music
+            5 - Next music
+            6 - Previous music
+            7 - Open camera
+            8 - Open dialer -->
+    <integer name="config_doubleTapDefault">1</integer>
+
+    <integer name="config_drawVDefault">0</integer>
+
+    <integer name="config_drawInverseVDefault">0</integer>
+
+    <integer name="config_drawODefault">0</integer>
+
+    <integer name="config_drawMDefault">0</integer>
+
+    <integer name="config_drawWDefault">0</integer>
+
+    <integer name="config_drawArrowLeftDefault">0</integer>
+
+    <integer name="config_drawArrowRightDefault">0</integer>
+
+    <integer name="config_oneFingerSwipeUpDefault">0</integer>
+
+    <integer name="config_oneFingerSwipeRightDefault">0</integer>
+
+    <integer name="config_oneFingerSwipeDownDefault">0</integer>
+
+    <integer name="config_oneFingerSwipeLeftDefault">0</integer>
+
+    <integer name="config_twoFingerSwipeDefault">0</integer>
 </resources>
